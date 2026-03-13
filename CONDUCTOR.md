@@ -19,6 +19,7 @@ workspace:
   root: ./workspaces
   after_clone:
     - "pnpm run setup"
+    - "pnpm run lint:fix"
 
 agent:
   command: claude
